@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to top, #39b3c92a, #2cc0823b, #1baa6748);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 100vh;
+}
+
+.container {
+    margin-top: 5%;
+}

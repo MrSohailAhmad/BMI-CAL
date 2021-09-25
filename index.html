@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI | CALCULATER</title>
+</head>
+
+<body>
+    <div class="container col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4">
+        <div class="card ">
+            <div class="card-header text-center"> BMI CALCULATER</div>
+            <div class="card-body ">
+                <form action="" class="w-50 m-auto" onsubmit="return false">
+                    <div class="form-group">
+                        <label for="">Weight : </label>
+                        <input type="number" placeholder="Enter weight in KG" required id="weight" class="form-control">
+                    </div>
+                    <!--  -->
+                    <div class="form-group">
+                        <label for="">Height : </label>
+                        <input type="number" placeholder="Enter height in Feet" required id="height" class="form-control">
+                    </div>
+                    <!--  -->
+                    <div class="form-group">
+                        <label for="">BMI Values : </label>
+                        <input type="number" id="bmiValue" class="form-control">
+                    </div>
+                    <div class="btns">
+                        <button type="submit" onclick="getBmiValue()" class="btn btn-success">Calculate </button>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer text-center">A healthy BMI ranges between 19 and 25</div>
+        </div>
+    </div>
+    <!-- custom js file -->
+    <script src="app.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
